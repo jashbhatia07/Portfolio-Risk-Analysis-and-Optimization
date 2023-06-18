@@ -79,7 +79,7 @@ Rf = 0.02 / 252  # risk free rate
 # Tgcy_portfolio  https://business.missouri.edu/yanx/fin333/lectures/Riskyportfolio%20short.pdf
 Tgcy_wgt_AAPL = ((AAPL['log_ret'] - Rf) * GOOG['mov_var'] - (GOOG['log_ret'] - Rf) * Mov_Cov) / \
                 ((AAPL['log_ret'] - Rf) * GOOG['mov_var'] - (GOOG['log_ret'] - Rf) * AAPL['mov_var'] - \
-                 (AAPL['log_ret'] - Rf + GOOG['log_ret'] - Rf) * Mov_Cov)  # 计算两个资产权重的公式
+                 (AAPL['log_ret'] - Rf + GOOG['log_ret'] - Rf) * Mov_Cov) 
 
 Tgcy_wgt_AAPL[Tgcy_wgt_AAPL<0] = 0   # assume long only
 Tgcy_wgt_AAPL[Tgcy_wgt_AAPL>1] = 1
