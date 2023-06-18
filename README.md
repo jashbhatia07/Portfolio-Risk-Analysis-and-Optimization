@@ -9,11 +9,17 @@ Portfolio risk analysis plays a crucial role in investment decision-making. This
 The following dependencies are required to run the project:
 
 Python (version >= 3.7)
+
 pandas
+
 numpy
+
 matplotlib
+
 BeautifulSoup
+
 pandas_datareader
+
 scipy
 
 ## Installation
