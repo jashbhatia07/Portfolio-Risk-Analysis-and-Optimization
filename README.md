@@ -19,15 +19,16 @@ scipy
 ## Installation
 Clone the repository:
 
-'''bash
+```bash
 git clone https://github.com/jashbhatia07/portfolio-risk-analysis.git
-
+```
 Install the required dependencies using pip:
 
 
 ### Run the main script:
-python Risk Analysis and Optimization.py
-
+```python 
+Risk Analysis and Optimization.py
+```
 The script will fetch historical stock data, calculate risk metrics, and construct portfolios based on different weighting schemes.
 
 The results will be displayed in the console and saved as dataframes in the respective variables.
