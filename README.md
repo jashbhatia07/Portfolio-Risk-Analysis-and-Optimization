@@ -43,14 +43,22 @@ The project calculates risk metrics such as Value at Risk (VaR) and Conditional 
 The project constructs portfolios based on different weighting schemes:
 
 Tgcy Portfolio: Implements a specific weighting formula based on returns and covariances of the stocks.
+
 Equal Weighted Portfolio: Assigns equal weights to each stock in the portfolio.
+
 Risk Parity Weighted Portfolio: Allocates weights based on risk parity principles, considering volatilities and correlation between stocks.
+
 
 ## Results
 The project provides the following results for each portfolio:
 
 Portfolio Returns
+
 Cumulative Returns
+
 VaR (Value at Risk)
+
 CVaR (Conditional Value at Risk)
+
 Additional metrics for Risk Parity Weighted Portfolio: VaR with risk rebalancing (VaRR)
+
