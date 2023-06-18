@@ -17,8 +17,8 @@ soup = bs(page.read(), "html5lib")
 table = soup.find('table', {'class': 'wikitable'})  
 '''
 SD = dict()  
-for row in table.findAll('tr'):  # 'tr'是HTML语言中的行
-    col = row.findAll('td')  # 'td'是HTML中的列
+for row in table.findAll('tr'):  
+    col = row.findAll('td')  
     if len(col) > 0:
         ticker = str(col[0].string.strip())
         sector = str(col[3].string.strip()).lower()
